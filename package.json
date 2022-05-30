@@ -1,0 +1,9 @@
+{
+  "name": "non-constructible-change",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --watch \"src/**\" --ext \"ts,json\" --ignore \"src/**/*.spec.ts\" --exec \"ts-node index.ts\""
+  }
+}
